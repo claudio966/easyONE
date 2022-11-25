@@ -102,8 +102,13 @@ sudo apt install opennebula-node
 ```
 
 ### Configuring Fireedge
-The fireedge configuration allow in the deploy moment of a VM in the OpenNebula, can be possible visualize the console terminal of your virtual machine in your browser.
+The fireedge configuration allow in the deploy moment of a VM in the OpenNebula, can be possible visualize the console terminal of your virtual machine in your browser. So, for this, it's necessary go to in /etc/one/sunstone-server.conf, with sudo permissions, and change two variables, showed below:
 
+```bash
+:private_fireege_endpoint: http://localhost:2616
+:public_fireedge_endpoint: http://localhost:2616
+```
+In this way, it's necessary replace `http://localhost:2616` by your IP or DNS server.
 
 
 
