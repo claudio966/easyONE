@@ -138,8 +138,11 @@ oneadmin:jfgkd33438
 
 At in the left of (:) is the aforementioned user `oneadmin`, and in the right the password access of this user.
 
+### Post-installation
+After finish all steps aforementioned, and to have access to OpenNebula Dashboard, some additional settings are necessary to assume the application order to use. So, let's do it.
 
-
+#### Enabling the marketplace
+The first step that can be do it is enable the one MarketPlace, to download several image templates for VMs ready to use. Hence, go to `Storage > Marketplaces`.
 
 
 
