@@ -111,7 +111,32 @@ The fireedge configuration allow in the deploy moment of a VM in the OpenNebula,
 In this way, it's necessary replace `http://localhost:2616` by your IP or DNS server.
 
 
+### Iniatializing the ONE server
+```bash
+sudo systemctl start opennebula opennebula-sunstone opennebula-fireedge opennebula-flow
+```
 
+```bash
+sudo systemctl enable opennebula opennebula-sunstone
+```
+
+### Accessing ONE Dashboard
+To access the ONE dashboard, the called sunstone, is necessary to go in some browser and insert the below url, suiting for your server IP:
+```bash
+http://<server_IP>:9869
+```
+To login in the system, it's necessary have in pocket, naturarally, the username and its password. The first is `oneadmin`, if nothing change in above configuration. The second can be get via command line in this way, being superuser:
+
+```bash
+cat /var/lib/one/.one/one_auth
+```
+
+Expected output:
+```bash
+oneadmin:jfgkd33438
+```
+
+At in the left of (:) is the aforementioned user `oneadmin`, and in the right the password access of this user.
 
 
 
