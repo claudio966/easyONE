@@ -55,6 +55,52 @@ FLUSH PRIVILEGES;
 EXIT
 ```
 
+### Installing ONE dependencies via APT
+```bash
+sudo apt update && sudo apt install opennebula opennebula-sunstone opennebula-gate opennebula-flow opennebula-fireedge opennebula-provision -y
+```
+
+### Installing complementary dependencies via Ruby Gems
+```bash
+sudo /usr/share/one/install_gems
+```
+
+### Configuring ONE Backend
+After the installation of ONE dependencies, go and open in, with any text editor(VIM :)). the file `oned.conf` at /etc/one/; like below:
+```bash
+sudo vim /etc/one/oned.conf
+```
+
+Search for a variable called DB, and insert the information like the below model:
+```bash
+DB = [ BACKEND = "mysql",
+      SERVER = "localhost",
+      PORT = 0,
+      USER = "oneadmin",
+      PASSWD = "StrongPassword",
+      DB_NAME = "opennebula" ]
+```
+
+:information_source: The `passwd` field is the same defined in the oneadmin user configuration of MariaDB server.
+
+### Opening the 9869 Port for OpenNebula Sunstone(Dashboard)
+Using `ufw` tool or another one, opening 9869 port used by Sunstone:
+```bash
+sudo ufw allow proto tcp from any to any port 9869
+```
+
+### Installing dependencies for a KVM Node
+This installation can be optional, if you want another hypervisor. But, notice, any hypervisor need to be choosen. Below, there is a list with some options to choice:
+- LXC
+- LXD
+- VMware Vcenter
+- QEMU
+- Firecracker
+
+
+
+
+
 
 
 
