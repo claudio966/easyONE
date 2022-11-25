@@ -1,7 +1,6 @@
 # easyONE
 
 ## Open Nebula Installation
-Para essa instalação, o sistema operacional a ser utilizado é Ubuntu Server 20.04.4; e a versão do OpenNebula é a 6.4:
 For this installation, the operational system used will be Ubuntu Server 20.04.4; The OpenNebula version is 6.4:
 
 - SO: Ubuntu Server 20.04.4
