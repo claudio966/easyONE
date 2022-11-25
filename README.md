@@ -157,5 +157,9 @@ Most important to enable the marketplace repositories, it's configure a host for
 
 ![Host](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_3.png)
 
+To start the the addition of a host, click in `+` button. The next screen will be appear:
+
+![Host_1](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_4.png)
+
 
 
