@@ -150,9 +150,12 @@ In this case, the repositories already be enable to use. since can be notice the
 
 ![marketplace_1](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_2.png)
 
-In the case above, the repository choose was `Linux Containers`, and to enable it, just click in `Enable` button. The same approach can be done for another repositories.
+In the case above, the repository chosen was `Linux Containers`, and to enable it, just click in `Enable` button. The same approach can be done for another repositories.
 
+### Creating a host with KVM
+Most important to enable the marketplace repositories, it's configure a host for use on OpenNebula. Basically, this settings allow that new virtual machines be instatiates by some hypervisor. Remember it, in this documentation, the KVM hypervisor was chosen for this purpose. Therefore, in the next configuration, the first step for this is to go at `Infrastructure > Hosts`, and you will be welcomed with the next screen.
 
+![Host](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_3.png)
 
 
 
