@@ -28,7 +28,7 @@ sudo apt update && sudo apt install mariadb-server -y
 
 ### Configuring MariaDB Server
 ```bash
-sudo mysql -u root -p 
+sudo mysql_secure_installation
 ```
 
 ### Creating a New database
