@@ -142,7 +142,16 @@ At in the left of (:) is the aforementioned user `oneadmin`, and in the right th
 After finish all steps aforementioned, and to have access to OpenNebula Dashboard, some additional settings are necessary to assume the application order to use. So, let's do it.
 
 #### Enabling the marketplace
-The first step that can be do it is enable the one MarketPlace, to download several image templates for VMs ready to use. Hence, go to `Storage > Marketplaces`.
+The first step that can be done is enable the ONE MarketPlace, to download several image templates for VMs ready to use. Hence, go to `Storage > Marketplaces`. And you will see the next screen.
+
+![marketplace](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_1.png)
+
+In this case, the repositories already be enable to use. since can be notice the quantities of apps available to download. To reach this, click in your interest repositories, and the next screen will appear.
+
+![marketplace_1](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_2.png)
+
+In the case above, the repository choose was `Linux Containers`, and to enable it, just click in `Enable` button. The same approach can be done for another repositories.
+
 
 
 
