@@ -161,5 +161,7 @@ To start the the addition of a host, click in `+` button. The next screen will b
 
 ![Host_1](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_4.png)
 
+In this screen, there is two fields that need to be filled up in accord of your situation. The first is what type of the host. that is, what hypervisor will be used. Well, we already have this conversation :). In this case, was KVM. The second is the IP of the machine with this hypervisor. In this way, if KVM node was installed in the same machine of the before procedure, then just repeat this IP in the `Hostname` field. Done this process, just click in `Create` button to finish.
+
 
 
