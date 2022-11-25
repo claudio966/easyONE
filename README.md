@@ -97,6 +97,16 @@ This installation can be optional, if you want another hypervisor. But, notice, 
 - QEMU
 - Firecracker
 
+With KVM:
+```bash
+sudo apt install opennebula-node
+```
+
+### Configuring Fireedge
+The fireedge configuration allow in the deploy moment of a VM in the OpenNebula, can be possible visualize the console terminal of your virtual machine in your browser.
+
+
+
 
 
 
