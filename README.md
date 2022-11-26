@@ -125,6 +125,11 @@ To access the ONE dashboard, the called sunstone, is necessary to go in some bro
 ```bash
 http://<server_IP>:9869
 ```
+
+And you will be welcomed with this screen:
+
+![welcome_to_one](https://raw.githubusercontent.com/claudio966/easyONE/master/images/github_5.png)
+
 To login in the system, it's necessary have in pocket, naturarally, the username and its password. The first is `oneadmin`, if nothing change in above configuration. The second can be get via command line in this way, being superuser:
 
 ```bash
