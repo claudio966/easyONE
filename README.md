@@ -108,7 +108,7 @@ The fireedge configuration allow in the deploy moment of a VM in the OpenNebula,
 :private_fireege_endpoint: http://localhost:2616
 :public_fireedge_endpoint: http://localhost:2616
 ```
-In this way, it's necessary replace `http://localhost:2616` by your IP or DNS server.
+In this way, it's necessary replace `http://localhost:2616` by your IP or DNS.
 
 
 ### Iniatializing the ONE server
