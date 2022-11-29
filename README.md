@@ -174,5 +174,5 @@ The network configuration for the OpenNebula server is quite sensitive than host
 ##### Configuring a brigde
 The matter of the fact about this procedure, is to know the effects that from the configuration of this brigde, that is, what will happen with the server if the bridge was applied in one of two NIC available, or what will happen if this configuration will applied in the only NIC available.
 
-For the first situation, aforementioned, little will happen depending what interface is being used, that is, if the opennebula service wasn't configured with some IP of this interface, and the SSH service don't running through this interface either, then the brigde configuration will be ocurr without any freeze screen in your remote shell. Although, if this services running through this interface, then you have the same problems when only one interface is available.
+For the first situation, aforementioned, little will happen depending what interface is being used, that is, if the opennebula service has not been configured with some IP of this interface, and the SSH service don't running through that interface either, then the brigde configuration will be ocurr without any freeze screen in your remote shell. Although, if those services running through this interface, then you have the same issues when only one interface is available.
 
