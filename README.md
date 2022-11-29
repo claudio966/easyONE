@@ -168,5 +168,6 @@ To start the the addition of a host, click in `+` button. The next screen will b
 
 In this screen, there is two fields that need to be filled up in accord of your situation. The first is what type of the host. that is, what hypervisor will be used. Well, we already have this conversation :). In this case, was KVM. The second is the IP of the machine with this hypervisor. In this way, if KVM node was installed in the same machine of the before procedure, then just repeat this IP in the `Hostname` field. Done this process, just click in `Create` button to finish.
 
-
+#### Configuring a Network
+The network configuration for the OpenNebula server is quite sensitive than host configuration. Although, it depends of NIC's quantities where server was installed. Hence, if this server was installed in a machine with two network interface, with IP assigned, internet acces and DNS configured; then, the network configuration for VMs will be happen pretty much well and without additional concerns. Now, if the enviroment was configured with only one network interface, then, will be necessary have aware about some situations and careful about the procedures running in the next.  
 
